@@ -441,9 +441,15 @@ transition: all 0.2s ease-in-out;
 .huge-title h1 {
   letter-spacing: 0.2em;
   font-size: 5em;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
+  padding-bottom: 0px;
   max-width: 600px;
-  line-height: 1.2;
+  line-height: 0.93;
+
+}
+
+#secondo-titolo {
+  margin-top: 0px;
 }
 
 .huge-title .logo {
@@ -1367,6 +1373,7 @@ transition: all 0.2s ease-in-out;
 
 #contact_info p a{
 	color: #AAA;
+  padding: 5px;
 }
 
 #contact_info p a:hover {
@@ -1835,7 +1842,8 @@ input[type=submit] {
 }
 
 .huge-title h1 {
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
+    padding-bottom: 0px;
     font-size: 2.5em;
     padding-left: 20px;
     padding-right: 20px;
